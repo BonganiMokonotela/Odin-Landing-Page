@@ -82,6 +82,9 @@ a:hover {
   margin-top: 20px;
   padding: 20px;
 }
+.info {
+  color: var(--info_txt);
+}
 .info,
 .text {
   text-align: center;
@@ -116,4 +119,48 @@ a:hover {
 }
 .qoute {
   font-weight: bold;
+}
+.call-to-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #3882f6;
+  height: 60px;
+  width: 50%;
+  margin: 5% 5% 5% 25%;
+  border-radius: 10px;
+}
+.content-heading {
+  color: var(--main_txt);
+  font-size: 18px;
+  font-weight: bolds;
+}
+.sub-content {
+  color: var(--link_txt_sec_txt);
+  opacity: 0.9;
+}
+.signup {
+  border: var(--main_txt) solid 1px;
+  background-color: var(--btn_color);
+  color: var(--main_txt);
+  border-radius: 5px;
+  padding: 4px;
+  width: 75px;
+}
+.signup:hover {
+  background-color: var(--info_txt);
+}
+
+footer {
+  height: 50px;
+  background-color: var(--dark_bg);
+  color: var(--link_txt_sec_txt);
+}
+footer > p {
+  text-align: center;
+  padding-top: 20px;
+}
+footer > p > span {
+  font-size: smaller;
+  font-weight: 900;
 }
