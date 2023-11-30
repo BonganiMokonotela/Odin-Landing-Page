@@ -77,3 +77,31 @@ a:hover {
   background-color: var(--main_txt);
   color: var(--btn_color);
 }
+/* Middle section */
+.middle_section {
+  margin-top: 20px;
+  padding: 20px;
+}
+.info,
+.text {
+  text-align: center;
+}
+
+.car-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;
+}
+.car-img > .first-car > img {
+  width: 350px;
+  height: 200px;
+}
+.car-img > .second-car > img {
+  width: 350px;
+  height: 200px;
+}
+.car-img > .third-car > img {
+  width: 350px;
+  height: 200px;
+}
