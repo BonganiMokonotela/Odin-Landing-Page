@@ -43,3 +43,37 @@ a:hover {
   color: var(--btn_color);
   border-bottom: var(--btn_color) solid 2px;
 }
+/* Hero Section */
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--dark_bg);
+  padding: 50px;
+}
+.title {
+  font-size: var(--main_txt_font_px);
+  color: var(--main_txt);
+}
+.subtitle {
+  color: var(--link_txt_sec_txt);
+  font-size: var(--sec_txt_font_px);
+}
+.btn {
+  background-color: var(--btn_color);
+  border: none;
+  border-radius: 5px;
+  padding: 4px;
+  width: 75px;
+  margin-top: 15px;
+}
+.hero-section > img {
+  width: 500px;
+  height: 250px;
+  margin-top: 15px;
+}
+.btn:hover {
+  background-color: var(--main_txt);
+  color: var(--btn_color);
+}
